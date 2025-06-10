@@ -1,6 +1,6 @@
 # Proyecto DemoSec - Sistema SIEM con Wazuh y ELK Stack
 
-## 📄 Descripción General
+##  Descripción General
 
 **DemoSec** es un proyecto demostrativo y formativo que consiste en la implementación de un sistema de monitorización y detección de intrusiones (SIEM) basado en **Wazuh 4.7.5** y **ELK Stack (Elasticsearch, Logstash y Kibana)**, desplegado sobre una infraestructura virtualizada. El sistema está diseñado para:
 
@@ -9,7 +9,7 @@
 - Servir como recurso formativo para centros educativos o departamentos de IT.
 - Facilitar la replicabilidad mediante scripts automatizados y documentación.
 
-## 🚀 Objetivos del Proyecto
+##  Objetivos del Proyecto
 
 - Implementar una arquitectura SIEM con Wazuh + ELK.
 - Monitorizar clientes Ubuntu, Windows y Kali Linux.
@@ -20,7 +20,7 @@
 
 ---
 
-## ⚙️ Requisitos del Sistema
+##  Requisitos del Sistema
 
 ### Hardware (orientativo):
 - CPU: 4 vCPU
@@ -39,7 +39,7 @@
 
 ---
 
-## 🛂 Infraestructura Virtualizada
+##  Infraestructura Virtualizada
 
 ```bash
 +------------------+        +-------------------------+
@@ -60,7 +60,7 @@
 
 ---
 
-## 🔢 Instalación Paso a Paso
+##  Instalación Paso a Paso
 
 ### 1. Clonar el Repositorio
 ```bash
@@ -105,7 +105,7 @@ curl -s https://packages.wazuh.com/4.7/wazuh-install.sh | bash
 
 ---
 
-## ✉️ Alertas por Correo Electrónico
+## ✉ Alertas por Correo Electrónico
 
 - Se utiliza **Postfix** configurado como relay a Gmail u otro SMTP.
 - Configurable desde el script o manualmente:
@@ -116,7 +116,7 @@ curl -s https://packages.wazuh.com/4.7/wazuh-install.sh | bash
 
 ---
 
-## 📚 Documentación Incluida
+##  Documentación Incluida
 
 - `instalar_wazuh.sh`: Script automatizado completo.
 - `README.md`: Este documento explicativo.
@@ -126,7 +126,7 @@ curl -s https://packages.wazuh.com/4.7/wazuh-install.sh | bash
 
 ---
 
-## 🚀 Futuras Mejoras
+##  Futuras Mejoras
 
 - Despliegue en Docker o Kubernetes.
 - Integración con SIEMs externos (Splunk, etc.).
@@ -135,7 +135,7 @@ curl -s https://packages.wazuh.com/4.7/wazuh-install.sh | bash
 
 ---
 
-## 👮‍♂️ Autor y Licencia
+##  Autor y Licencia
 
 - **Autor:** [Tu nombre o nick]
 - **Centro educativo / empresa:** [Nombre del centro o entidad]
@@ -143,7 +143,7 @@ curl -s https://packages.wazuh.com/4.7/wazuh-install.sh | bash
 
 ---
 
-## 🔗 Enlaces últiles
+##  Enlaces últiles
 
 - [https://documentation.wazuh.com](https://documentation.wazuh.com)
 - [https://www.elastic.co/elk-stack](https://www.elastic.co/elk-stack)
