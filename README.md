@@ -64,14 +64,14 @@
 
 ### 1. Clonar el Repositorio
 ```bash
-git clone https://github.com/tuusuario/proyecto-wazuh-demos.git
+git clone https://github.com/ivanmagaa/DemoSec.git
 cd proyecto-wazuh-demos
 ```
 
 ### 2. Ejecutar el Script Principal
 ```bash
-chmod +x instalar_wazuh.sh
-./instalar_wazuh.sh
+chmod +x demosec-install.sh
+./demosec-install.sh
 ```
 
 El script incluye:
