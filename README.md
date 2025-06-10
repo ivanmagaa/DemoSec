@@ -91,7 +91,7 @@ curl -s https://packages.wazuh.com/4.7/wazuh-install.sh | bash
 
 ---
 
-## 📊 Pruebas de Funcionamiento
+## Pruebas de Funcionamiento
 
 - Simulaciones con Kali Linux:
   - Ataques de fuerza bruta SSH (Hydra)
@@ -105,7 +105,7 @@ curl -s https://packages.wazuh.com/4.7/wazuh-install.sh | bash
 
 ---
 
-## ✉ Alertas por Correo Electrónico
+## Alertas por Correo Electrónico
 
 - Se utiliza **Postfix** configurado como relay a Gmail u otro SMTP.
 - Configurable desde el script o manualmente:
